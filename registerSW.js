@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mayan_demo/sw.js', { scope: '/mayan_demo/' })})}
